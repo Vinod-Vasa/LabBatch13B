@@ -1,0 +1,40 @@
+h1{
+  background-color: blue;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+a{
+  text-decoration: none;
+}
+.xyz{
+  font-size: 25px;
+       width: 15%;
+            height:50%;
+            float: left;
+            padding-left: 15px;
+            background-attachment: fixed;
+            background-color: white;
+          
+}
+.abc{
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.def{
+  float: right;
+  padding-right: 1000px;
+  padding-top: 12px;
+  background-color: blue;
+  padding-bottom: 10px;
+  size: 50px;
+
+  
+}
+ul:hover{
+  background-color: orangered;
+}

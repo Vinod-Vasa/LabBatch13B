@@ -1,15 +1,18 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { AppComponent } from './app.component';
+import { AppComponent} from './app.component';
+
+
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [
-        RouterTestingModule
+        RouterTestingModule,
+        
       ],
       declarations: [
-        AppComponent
+        
       ],
     }).compileComponents();
   });
@@ -23,7 +26,7 @@ describe('AppComponent', () => {
   it(`should have as title 'thirteen-b-lab-one'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('thirteen-b-lab-one');
+    expect('app.title').toEqual('thirteen-b-lab-one');
   });
 
   it('should render title', () => {
